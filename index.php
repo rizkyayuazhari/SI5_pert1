@@ -2,8 +2,22 @@
 <html>
 <head>
 	<title>Latihan CRUD</title>
-</head>
+<link rel="stylesheet" type="text/css" href="css.css">
+	<style>
+		.tengah {
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 20px;
+		right: 20px;
+		width: auto;
+		height : 800px;
+		background-color: LightCyan;
+		border: 1px solid black; }
+	</style>
+	</head>
 <body>
+	<div class="tengah">
 	<h3><p><a href="index.php">Halaman Muka</a> / <a href="tambah.php">Halaman Admin</a></p>
 	<p>Data Praktikan</p></h3>
 	<table cellpadding="5" cellspacing="0" border="1">
